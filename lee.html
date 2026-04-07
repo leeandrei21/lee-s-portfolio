@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h2 class="logo">Lee's portfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="section">
+        <h1>Hello, I'm <span>Lee Andrei</span></h1>
+        <p>A Student & Aspiring Developer</p>
+        <button onclick="scrollToSection('projects')">View My Work</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a computer science student who wants to learn more about coding.
+            Soon to be web developer.
+
+        </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>Description of your project.</p>
+            </div>
+            <div class="card">
+                <h3>Project 2</h3>
+                <p>Description of your project.</p>
+            </div>
+            <div class="card">
+                <h3>Project 3</h3>
+                <p>Description of your project.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: leeandrei.chavez@cvsu.edu.ph</p>
+        <button onclick="showMessage()">Say Hello</button>
+    </section>
+
+    <footer>
+        <p>© 2026 Lee Andrei chavez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
